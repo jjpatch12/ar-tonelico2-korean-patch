@@ -1,0 +1,74 @@
+{
+  "schema": "artonelico2-korean-xdelta-release-v1",
+  "version": "v0.3.0",
+  "release_date": "2026-09-20",
+  "source": {
+    "bytes": 4308598784,
+    "sha256": "2f6bf168b6dc46b49b9d806c8c3c9824424daccff659d1414855c31c131dd489",
+    "identity": "SLUS-21788 English-based project source; exact SHA-256 required"
+  },
+  "target": {
+    "bytes": 4321628160,
+    "sha256": "af5f75a2a9e81c4d61856558d5c1611f8f82487cd7179af651b6af4146e3ea99"
+  },
+  "patch": {
+    "file": "ArTonelico2_Korean_v0.3.0.xdelta",
+    "bytes": 123621964,
+    "sha256": "b69c81f7ef2e6ca95e4ca441be2e8c399f44791ea034c8c930e7f6f600b05111",
+    "format": "VCDIFF/xdelta3",
+    "cumulative": true,
+    "encoder": "xdelta3 3.2.0",
+    "secondary_compression": "none",
+    "application_header": false,
+    "armor": false
+  },
+  "verification": {
+    "full_decode_checks": [
+      {
+        "decoder": "3.2.0",
+        "decoded_bytes": 4321628160,
+        "decoded_sha256": "af5f75a2a9e81c4d61856558d5c1611f8f82487cd7179af651b6af4146e3ea99",
+        "exact_target_match": true,
+        "temporary_iso_created": false,
+        "elapsed_seconds": 22.656999999999243
+      },
+      {
+        "decoder": "3.1.0",
+        "decoded_bytes": 4321628160,
+        "decoded_sha256": "af5f75a2a9e81c4d61856558d5c1611f8f82487cd7179af651b6af4146e3ea99",
+        "exact_target_match": true,
+        "temporary_iso_created": false,
+        "elapsed_seconds": 30.04699999999866
+      }
+    ],
+    "source_and_target_isos_unchanged": true,
+    "disc_files_checked": 247,
+    "disc_files_changed": 12,
+    "changed_paths": [
+      "SLUS_217.88",
+      "RPK.BIN",
+      "ERXS/HKDATA.ERX",
+      "ERXS/MIXMESS.ERX",
+      "ERXS/MKDATA.ERX",
+      "ERXS/QADATA.ERX",
+      "ERXS/QVDATAE.ERX",
+      "MOVIE/AT2_OP01.SFD",
+      "MOVIE/EVENT3/SSC02_J.SFD",
+      "MOVIE/EVENT2/MSC03_J.SFD",
+      "MOVIE/EVENT2/MSC04_J.SFD",
+      "MOVIE/EVENT/AVAN_T.SFD"
+    ],
+    "unchanged_file_count": 235,
+    "movie_files_changed": [
+      "MOVIE/AT2_OP01.SFD",
+      "MOVIE/EVENT3/SSC02_J.SFD",
+      "MOVIE/EVENT2/MSC03_J.SFD",
+      "MOVIE/EVENT2/MSC04_J.SFD",
+      "MOVIE/EVENT/AVAN_T.SFD"
+    ],
+    "movie_subtitle_segments": 33,
+    "remaining_movie_files_unchanged": true,
+    "gameplay": "Selected screens confirmed by user; full playthrough not verified"
+  },
+  "created_utc": "2026-09-19T15:25:17.705404+00:00"
+}

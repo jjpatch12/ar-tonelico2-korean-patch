@@ -1,0 +1,27 @@
+# Release binary lives in GitHub Releases, never in Git history.
+*.xdelta
+*.iso
+*.ISO
+*.bin
+*.BIN
+*.elf
+*.ELF
+*.erx
+*.ERX
+*.sfd
+*.SFD
+*.afs
+*.AFS
+*.rpk
+*.RPK
+*.bak
+*.backup
+*.tmp
+*.log
+*.zip
+*.7z
+.env
+.env.*
+credentials*
+token*
+__pycache__/
