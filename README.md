@@ -4,10 +4,6 @@
 
 현재 한국어화 작업본을 하나의 패치로 묶었습니다. 기존 한국어 패치를 순서대로 설치할 필요 없이, **아래 해시와 일치하는 기준 ISO에 이번 패치 한 번만 적용**합니다.
 
-- [v0.3.0 릴리스 및 다운로드](https://github.com/jjpatch12/ar-tonelico2-korean-patch/releases/tag/v0.3.0)
-- [변경 내역](CHANGELOG.md)
-- [빌드·검증 정보](release-manifest.json)
-- [글꼴 및 제3자 고지](THIRD_PARTY_NOTICES.md)
 
 ## 한국어화 범위
 
