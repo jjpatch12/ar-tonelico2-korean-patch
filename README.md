@@ -35,15 +35,6 @@
 - `Output File`: 원본과 다른 출력 파일명
 - 적용 후 반드시 출력 ISO 해시 확인
 
-### 명령줄 xdelta3
-
-공식 배포처: [jmacd/xdelta Releases](https://github.com/jmacd/xdelta/releases)
-
-아래는 파일들이 같은 폴더에 있을 때의 PowerShell 예시입니다.
-
-```powershell
-.\xdelta3.exe -d -s '.\원본.iso' '.\ArTonelico2_Korean_v0.3.0.xdelta' '.\ArTonelico2_Korean.iso'
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\ArTonelico2_Korean.iso'
 ```
 
 검증된 디코더는 xdelta3 **3.2.0** 및 **3.1.0**입니다. 이 패치에는 추가 외부 압축 해제나 이전 버전 패치가 필요하지 않습니다.
